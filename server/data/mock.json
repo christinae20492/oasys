@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "8678c91d-45b6-4602-ac28-016bd9924834",
+      "username": "jdoe",
+      "email": "jdoe@example.com",
+      "password": "password123"
+    }
+  ],
+  "books": [
+    {
+      "id": "730091f9-1bd5-47c6-a189-a382720d5941",
+      "title": "The Hobbit",
+      "genre": ["Fantasy", "Adventure"],
+      "pages": 310,
+      "release": "1937-09-21",
+      "price": 9.99
+    }
+  ],
+  "assign-book": [
+    {"userId": "8678c91d-45b6-4602-ac28-016bd9924834",
+    "bookId": "730091f9-1bd5-47c6-a189-a382720d5941"}
+  ],
+  "author":[
+    {
+        "name": "Lucille Atwood",
+        "publisher": "LionHouse"
+    }
+  ]
+}
